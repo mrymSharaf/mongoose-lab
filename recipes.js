@@ -10,7 +10,7 @@ async function connectToDB() {
 }
 connectToDB()
 
-const recipeSchems = {
+const recipeSchems = new mongoose.Schema({
     name: {
         type: String,
         required: true
@@ -25,7 +25,7 @@ const recipeSchems = {
             default: 'Easy'
         }
     }
-}
+})
 
 const Recipe = mongoose.model('Recipe', recipeSchems )
 module.exports = Recipe
