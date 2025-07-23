@@ -7,14 +7,14 @@ const {
 } = require('./recipeUtils.js')
 
 createRecipe({
-    name: "Pink Pasta",
-    ingredients: ["Pasta", "Cream", 'Tomato Sause'],
-    instructions: 'cook the pasta and then add the cream with tomato sause',
-    prepTime: 60,
-    difficulty: "Easy"
+    name: "Um Ali",
+    ingredients: ["Puff Pastry", "Milk"],
+    instructions: "bake at 180C",
+    prepTime: 120,
+    difficulty: "Medium"
 })
 
-// updateRecipe('687feb049609d7dcb5bcc8b3', {
+// updateRecipe('68808b6f095875d9249719e0', {
 //     name: "Pink Pasta",
 //     ingredients: ["Pasta", "Cream", 'Tomato Sause'],
 //     instructions: 'cook pasta then add the cream and tomato sause',
@@ -23,5 +23,5 @@ createRecipe({
 // })
 
 // getAllRecipes()
-// deleteRecipe('687feb049609d7dcb5bcc8b3')
-// getRecipeById('687feba6f02f06db053edbf4')
+// deleteRecipe('68808b978fcb76fc8fe261c7')
+// getRecipeById('68808b978fcb76fc8fe261c7')

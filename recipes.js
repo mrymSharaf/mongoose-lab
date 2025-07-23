@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 async function connectToDB() {
     try {
-        await mongoose.connect('mongodb+srv://mrymSharaf:Kz3mx2h5@cluster0.gzjeawv.mongodb.net/recipesDB?retryWrites=true&w=majority&appName=Cluster0')
+        await mongoose.connect('mongodb://localhost:27017/recipesDB ')
         console.log('connected to database')
     } catch (error) {
         console.log('error connecting to the database')
